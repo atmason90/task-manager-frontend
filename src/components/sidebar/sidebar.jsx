@@ -33,7 +33,7 @@ export const Sidebar = ({createTaskHandler, setTaskData }) => {
         alignItems: 'center',
     }}>
         <Profile name={username} />
-        <Button sx={{ marginBottom: '20px'}} onClick={handleLogout}>Logout</Button>
+        <Button sx={{ marginTop: '20px'}} onClick={handleLogout}>Logout</Button>
         <CreateTaskForm createTaskHandler={createTaskHandler}/>
     </Grid>
   )
