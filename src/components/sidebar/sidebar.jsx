@@ -32,8 +32,8 @@ export const Sidebar = ({createTaskHandler, setTaskData }) => {
         flexDirection: 'column',
         alignItems: 'center',
     }}>
-        <Button sx={{ marginBottom: '20px'}} onClick={handleLogout}>Logout</Button>
         <Profile name={username} />
+        <Button sx={{ marginBottom: '20px'}} onClick={handleLogout}>Logout</Button>
         <CreateTaskForm createTaskHandler={createTaskHandler}/>
     </Grid>
   )
